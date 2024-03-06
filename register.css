@@ -1,0 +1,447 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*---------------------------------------
+  NAVIGATION              
+-----------------------------------------*/
+
+.logo {
+  font-size: 35px;
+  font-family: Arial;
+  user-select: auto;
+  color: #f9c10b;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+
+.full-meaning {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 10px;
+  top: 1px;
+  margin-left: 160px;
+}
+
+.logo:hover .full-meaning {
+  display: block;
+  transition: 0.3s ease;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+nav {
+  flex: 1;
+  text-align: center;
+  margin-left: 300px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-align: right;
+  font-size: 19px;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffff;
+  padding: 10px;
+  transition: 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+  background: #f9c10b;
+  border-radius: 8px;
+}
+
+/*---------------------------------------
+  SEARCH              
+-----------------------------------------*/
+.search{
+  width: 330px;
+  float: left;
+  margin-bottom: 12px;
+}
+
+.srch{
+  font-family: 'Times  New Roman';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #f9c10b;
+  margin-top: 13px;
+  color: white;
+  border-right: none;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background: #f9c10b;
+  border: 2px solid #f9c10b;
+  margin-top: 20px;
+  color: #ffff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+/*---------------------------------------
+  CONTENT              
+-----------------------------------------*/
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #ffff;
+  position: relative;
+}
+
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.content .cn{
+  width: 160px;
+  height: 60px;
+  background: #f9c10b;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.content .cn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+}
+.cn:hover{
+  background-color: #ffff;
+}
+
+.content span{
+  color: #f9c10b;
+  font-size: 60px;
+}
+
+/*---------------------------------------
+   LOGIN FORMS              
+-----------------------------------------*/
+.form-login{
+  width: 250px;
+  height: 365px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%); 
+  position: absolute;
+  top: 218px;
+  margin-left: 1050px;
+  border-radius: 10px;
+  padding: 25px; 
+}
+
+
+
+.form-login h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #f9c10b;
+  font-size: 22px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+
+.form-login input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #f9c10b;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #ffff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.form-login input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: #ffff;
+  font-family: Arial;
+}
+
+.btnn{
+  width: 240px;
+  height: 40px;
+  background: #f9c10b;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.btnn:hover{
+  background: #ffff;
+  color: #f9c10b;
+}
+
+.btnn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+
+.form-login .login-register{
+  font-family: Arial;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+  color: #ffff;
+
+}
+
+.form-login .login-register a{
+  text-decoration: none;
+  color: #f9c10b;
+}
+
+.input-box .picture{
+  position: absolute;
+  right: 10px;
+  font-size: 1.2em;
+  color: #fff;
+  line-height: 57px;
+}
+
+
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #ffff;
+}
+
+
+.icon a{
+  text-decoration: none;
+  color: #ffff;
+}
+
+.icon ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+  color: #f9c10b;
+}
+
+/*---------------------------------------
+   REGISTRATION FORMS              
+-----------------------------------------*/
+.form-register{
+  width: 530px;
+  height: 560px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%); 
+  position: absolute;
+  top: 100px;
+  margin-left: 1050px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.form-register h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #f9c10b;
+  font-size: 22px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+  margin-left: 150px;
+}
+
+.form-register input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #f9c10b;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #ffff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.form-register input:focus{
+  outline: none;
+}
+
+.btnn1{
+  width: 240px;
+  height: 40px;
+  background: #f9c10b;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffff;
+  margin-left: 150px;
+}
+
+.btnn1:hover{
+  background: #ffff;
+  color: #f9c10b;
+}
+
+.btnn1 a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.rew{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #ffff;
+}
+
+.term-condition{
+  color: #fff;
+}
+
+.term-condition input{
+  width: 13px;
+  height: 13px;
+  border-bottom: 1px solid #f9c10b;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.form-register .login-register{
+  font-family: Arial;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+  color: #ffff;
+
+}
+
+.form-register .login-register a{
+  text-decoration: none;
+  color: #f9c10b;
+}
+
+.input1-box .picture{
+  position: absolute;
+  right: 300px;
+  font-size: 1.2em;
+  color: #fff;
+  line-height: 57px;
+}
+
+.input2-box .picture{
+  position: absolute;
+  right: 10px;
+  font-size: 1.2em;
+  color: #fff;
+  line-height: 57px;
+}
+
+/* Left Side Fields */
+.form-register .left-side {
+  float: left;
+  width: 50%;
+  padding-right: 10px; /* Adjust padding as needed */
+}
+
+/* Right Side Fields */
+.form-register .right-side {
+  float: right;
+  width: 46%;
+  padding-left: 10px; /* Adjust padding as needed */
+}
+
+.icon{
+  text-align: center;
+}
+
+.icon a{
+  text-decoration: none;
+  color: #ffff;
+}
+
+.icon ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+  color: #f9c10b;
+}

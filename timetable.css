@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-------------------------
+ HEADER
+--------------------------*/
+header{
+    background: #f9c10b;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: #ffff;
+    font-size: 25px;
+    border-radius: 6px;
+}
+
+/*-------------------------
+  NAVIGATION
+--------------------------*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    transition: .2s ease-in-out;
+}
+
+nav ul li a:hover{
+    background: #f9c10b;
+    color: #ffff;
+    border-radius: 6px;
+}
+
+.logo {
+    font-size: 35px;
+    font-family: Arial;
+    user-select: auto;
+    color: #f9c10b;
+    font-weight: bold;
+    margin-left: 40px;
+}
+  
+  
+.full-meaning {
+    display: none;
+    position: absolute;
+    background-color: #dc3545;
+    border-radius: 100px;
+    padding: 10px;
+    color: #ffff;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    top: 60px;
+    margin-left: 160px;
+}
+  
+.logo:hover .full-meaning {
+    display: block;
+    transition: 0.3s ease;
+}
+
+/*-------------------------
+ HEADER
+--------------------------*/
+.content{
+    text-align: center;
+    color: #555;
+    font-family: Arial;
+    padding: 10px;
+    margin: 10px;
+    background: bisque;
+}
+span{
+    color: #f9c10b;
+}
+
+/*-------------------------
+ TIME-TABLE
+--------------------------*/
+.timetable{
+    padding: 10px;
+    margin-left: 490px;
+}
+.timetable h3{
+    padding: 10px; 
+    margin: 10px;
+    text-align: center;
+    margin-right: 385px;
+}
+
+table{
+    border-collapse: collapse;
+    height: 60%;
+    background-color: rgb(249, 249, 182);
+}
+
+.ask{
+    background-color: #dc3545;
+    color: #ffff;
+    font-size: 25px;
+}
+
+.him{
+    background-color: #f9c10b;
+    font-size: 18px;
+}
+
+.see{
+    font-weight: bold;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 380px;
+}
+
+
+
+
